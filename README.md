@@ -62,7 +62,7 @@ app/
 ---
 
 ## 🚀 How to Run (실행 방법)
-'''bash
+```bash
 uvicorn app.main:app --reload
 
 ### 1️⃣ Install Dependencies
