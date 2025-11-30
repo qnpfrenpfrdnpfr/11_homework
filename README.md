@@ -64,7 +64,7 @@ app/
 ## 🚀 How to Run (실행 방법)
 uvicorn app.main:app --reload
 
-### 1️⃣ Install Dependencies
+## 1️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 
