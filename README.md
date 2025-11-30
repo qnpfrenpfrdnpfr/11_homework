@@ -61,7 +61,7 @@ app/
 
 ---
 
-## 🚀 How to Run (실행 방법)
+### 🚀 How to Run (실행 방법)
 ```bash
 uvicorn app.main:app --reload
 
