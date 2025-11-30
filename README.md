@@ -37,7 +37,27 @@ JWT 인증과 SQLAlchemy ORM을 사용해 안정적인 서버 구조를 구현�
 ---
 
 ## 📁 Project Structure
-
+```
+app/
+ ├── main.py
+ ├── database/
+ │    └── database.py
+ ├── models/
+ │    └── data_model.py
+ ├── schemas/
+ │    ├── user_schema.py
+ │    └── post_schema.py
+ ├── crud/
+ │    └── crud.py
+ ├── routes/
+ │    ├── auth_route.py
+ │    ├── user_route.py
+ │    └── post_route.py
+ └── utils/
+      ├── dependencies.py
+      ├── jwt_handler.py
+      └── password_handler.py
+```
 
 ---
 
