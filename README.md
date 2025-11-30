@@ -45,4 +45,5 @@ JWT 인증과 SQLAlchemy ORM을 사용해 안정적인 서버 구조를 구현�
 
 ### 1️⃣ Install Dependencies
 ```bash
-pip install -r requirements.txt
+uvicorn app.main:app --reload
+
